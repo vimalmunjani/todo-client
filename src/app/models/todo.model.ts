@@ -4,6 +4,13 @@ class Todo {
     description: string;
     date: Date;
     status: string;
+
+    constructor(){
+            this.title = "";
+            this.description = "";
+            this.date = new Date();
+            this.status = "";
+        }
 }
 
 export default Todo;
